@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baitong</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./dist/styles/global.css" />
+    <link rel="stylesheet" href="./dist/styles/animate.css" />
+    <link rel="stylesheet" href="./dist/styles/aos.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./dist/scripts/aos.js"></script>
+    <script src="./dist/scripts/wow.min.js"></script>
+  </head>
+
+  <body class="bg-black overflow-hidden">
+    <section
+      class="h-[100vh] flex flex-col justify-center items-center gap-5 relative overflow-hidden"
+    >
+      <img
+        data-aos="zoom-in-down"
+        data-aos-duration="1500"
+        class="logo w-[350px]"
+        src="./dist/images/logo.png"
+      />
+
+      <section class="first-section relative mt-10">
+        <div class="flex justify-center items-center">
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            class="food w-[500px] z-30"
+            src="./dist/images/Asset 5.png"
+          />
+          <img
+            data-aos="slide-right"
+            data-aos-duration="1500"
+            class="txt_thai_taste absolute w-[300px] z-50"
+            src="./dist/images/slice4.png"
+          />
+          <img
+            data-aos="slide-left"
+            data-aos-duration="1500"
+            class="txt_authentic mt-5 z-40 absolute w-[550px]"
+            src="./dist/images/slice5.png"
+          />
+
+          <div
+            class="container_baitong absolute -left-[40%] -top-[25%] h-[350px]"
+          >
+            <img
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              class="baitong"
+              src="/dist/images/Asset 2.png"
+            />
+            <div
+              data-aos="slide-left"
+              data-aos-duration="1500"
+              class="flex top-[15%] -left-[10%] absolute w-[165px] justify-center items-center hover:!-translate-y-3"
+            >
+              <img class="touk_touk" src="./dist/images/Asset 1.png" />
+              <img
+                class="txt_delivery absolute scale-[0.75]"
+                src="./dist/images/slice1.png"
+              />
+            </div>
+          </div>
+
+          <div
+            class="container_baitong absolute -left-[30%] top-[20%] h-[500px] z-10"
+          >
+            <img
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              class="baitong"
+              src="/dist/images/Asset 3.png"
+            />
+            <div
+              data-aos="slide-right"
+              data-aos-duration="1500"
+              class="flex bottom-[18%] -left-[10%] absolute h-[175px] justify-center items-center hover:!-translate-y-3"
+            >
+              <img class="person" src="./dist/images/Asset 7.png" />
+              <img
+                class="txt_delivery absolute scale-[0.5]"
+                src="./dist/images/slice2.png"
+              />
+            </div>
+          </div>
+
+          <div
+            class="container_baitong absolute -left-[10%] -bottom-[38%] w-[750px]"
+          >
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="baitong"
+              src="/dist/images/Asset 4.png"
+            />
+            <div
+              data-aos="slide-down"
+              data-aos-duration="1500"
+              class="flex top-[10%] right-[1%] absolute h-[150px] justify-center items-center hover:!-translate-y-3"
+            >
+              <img class="paper-bag" src="./dist/images/Asset 6.png" />
+              <img
+                class="txt_pickup absolute scale-[0.65] top-2 left-2"
+                src="./dist/images/slice3.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script>
+      AOS.init();
+      new WOW().init();
+    </script>
+  </body>
+</html>

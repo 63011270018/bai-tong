@@ -1,0 +1,32 @@
+* {
+  transition: transform 200ms, margin 200ms, scaleX 300ms, scaleY 300ms, skewX 300ms, skewY 300ms;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .food {
+  background-image: url("/dist/images/Asset 5.png");
+} */
+
+.baitong_delivery {
+  background-image: url("/dist/images/Asset 2.png");
+}
+
+.baitong_reservation {
+  background-image: url("/dist/images/Asset 3.png");
+}
+
+.baitong_pickup {
+  background-image: url("/dist/images/Asset 4.png");
+}
+
+.absolute img {
+  width: 100%;
+  height: 100%
+}
